@@ -15,5 +15,5 @@ Now that the cluster is up, we can create our first PySpark application by launc
 
 ![Spark Cluster](https://raw.githubusercontent.com/yahya-Njd/Spark-cluster/master/images/img3.png)
 
-# spark.executor.memory: The amount of memory to be allocated to each executor, in MB.
-# spark.driver.memory: The amount of memory to be allocated to the driver, in GB.
+### spark.executor.memory: The amount of memory to be allocated to each executor, in MB.
+### spark.driver.memory: The amount of memory to be allocated to the driver, in GB.
