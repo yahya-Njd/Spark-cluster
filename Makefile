@@ -56,17 +56,12 @@ run-podman:
 	podman-compose -f docker-compose.yml up -d
 
 stop-podman:
-	podman-compose -f docker-compose.yml stop
-
-down-podman:
 	podman-compose -f docker-compose.yml down
 
 run-docker:
 	docker-compose -f docker-compose.yml up -d
 
 stop-docker:
-	docker-compose -f docker-compose.yml stop
-
-down-docker:
 	docker-compose -f docker-compose.yml down
+
 
