@@ -10,3 +10,10 @@ We need to create, build and compose the Docker images for JupyterLab and Spark 
 
 
 ![Spark Cluster](https://raw.githubusercontent.com/yahya-Njd/Spark-cluster/master/images/img1.png)
+
+Now that the cluster is up, we can create our first PySpark application by launching the JupyterLab (IDE) and creating a Python Jupyter notebook. To create the PySpark application, a connection to the Spark master node must be established using a Spark session object and the following parameters:
+
+![Spark Cluster](https://raw.githubusercontent.com/yahya-Njd/Spark-cluster/master/images/img3.png)
+
+# spark.executor.memory: The amount of memory to be allocated to each executor, in MB.
+# spark.driver.memory: The amount of memory to be allocated to the driver, in GB.
