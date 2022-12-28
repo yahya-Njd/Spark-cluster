@@ -38,3 +38,11 @@ And to stop it, use one of the following commands:
 make stop-podman
 make stop-docker
 ```
+
+Now that the cluster is up, we can create our first PySpark application by launching the JupyterLab (IDE) and creating a Python Jupyter notebook. To create the PySpark application, a connection to the Spark master node must be established using a Spark session object and the following parameters:
+
+![Spark Cluster](https://raw.githubusercontent.com/yahya-Njd/Spark-cluster/master/images/img3.png)
+
+- spark.executor.memory: The amount of memory to be allocated to each executor, in MB.
+- spark.driver.memory: The amount of memory to be allocated to the driver, in GB.
+
